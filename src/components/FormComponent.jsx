@@ -49,7 +49,7 @@ export default class FormComponent extends Component {
 					/>
 					<Form.Control.Feedback>Looks good!</Form.Control.Feedback>
 					<Form.Control.Feedback type="invalid">
-						Please enter a last name!
+						enter a last name!
 					</Form.Control.Feedback>
 				</Form.Group>
 
@@ -65,12 +65,12 @@ export default class FormComponent extends Component {
 					/>
 					<Form.Control.Feedback>Looks good!</Form.Control.Feedback>
 					<Form.Control.Feedback type="invalid">
-						Please enter a phone number!
+						enter a phone number!
 					</Form.Control.Feedback>
 				</Form.Group>
 
 				<Form.Group className="mb-3" controlId="category">
-					<Form.Label>Choose Relationship</Form.Label>
+					<Form.Label>Choose Catigories</Form.Label>
 					<Form.Select required value={category} onChange={handleValueChange} id="category">
 						<option value="family">Family</option>
 						<option value="friends">Friends</option>
@@ -79,7 +79,7 @@ export default class FormComponent extends Component {
 					</Form.Select>
 					<Form.Control.Feedback>Looks good!</Form.Control.Feedback>
 					<Form.Control.Feedback type="invalid">
-						Please choose a category!
+						selected a category!
 					</Form.Control.Feedback>
 				</Form.Group>
 
